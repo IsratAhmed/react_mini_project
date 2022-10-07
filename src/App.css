@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+#main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  text-align: center;
+}
+
+#movies-detail {
+  text-align: left;
+}
+
+#movies-detail ul li {
+  list-style: none;
+}
